@@ -1,0 +1,930 @@
+[
+  {
+    "schemeId": "1",
+    "schemeName": "Agriculture Boost Scheme",
+    "description": "Provides subsidized seeds and fertilizers for farmers in Punjab.",
+    "eligibility": {
+      "ageGroup": "25-55",
+      "gender": "Any",
+      "category": "Agriculture",
+      "location": "Punjab",
+      "occupation": "Farmer",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Subsidized seeds and fertilizers",
+    "category": "Agriculture"
+  },
+  {
+    "schemeId": "2",
+    "schemeName": "Youth Education Empowerment Program",
+    "description": "Offers scholarships and educational loans for students in Tamil Nadu.",
+    "eligibility": {
+      "ageGroup": "18-24",
+      "gender": "Any",
+      "category": "Education",
+      "location": "Tamil Nadu",
+      "occupation": "Student",
+      "incomeSlab": "Medium"
+    },
+    "benefits": "Scholarships and educational loans",
+    "category": "Education"
+  },
+  {
+    "schemeId": "3",
+    "schemeName": "Small Business Startup Fund",
+    "description": "Provides financial assistance for startups in Karnataka.",
+    "eligibility": {
+      "ageGroup": "22-45",
+      "gender": "Any",
+      "category": "Business",
+      "location": "Karnataka",
+      "occupation": "Entrepreneur",
+      "incomeSlab": "Medium"
+    },
+    "benefits": "Financial assistance for startups",
+    "category": "Business"
+  },
+  {
+    "schemeId": "4",
+    "schemeName": "Healthcare Access Initiative",
+    "description": "Ensures affordable healthcare for low-income families in Kerala.",
+    "eligibility": {
+      "ageGroup": "All",
+      "gender": "Any",
+      "category": "Healthcare",
+      "location": "Kerala",
+      "occupation": "Any",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Affordable healthcare",
+    "category": "Healthcare"
+  },
+  {
+    "schemeId": "5",
+    "schemeName": "Rural Housing Development Scheme",
+    "description": "Aids in building affordable housing in rural areas of Rajasthan.",
+    "eligibility": {
+      "ageGroup": "25-60",
+      "gender": "Any",
+      "category": "Housing",
+      "location": "Rajasthan",
+      "occupation": "Any",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Affordable housing",
+    "category": "Housing"
+  },
+  {
+    "schemeId": "6",
+    "schemeName": "Skill Development Program for Women",
+    "description": "Offers skill development training for women in Gujarat.",
+    "eligibility": {
+      "ageGroup": "18-35",
+      "gender": "Female",
+      "category": "Skill Development",
+      "location": "Gujarat",
+      "occupation": "Any",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Skill development training",
+    "category": "Skill Development"
+  },
+  {
+    "schemeId": "7",
+    "schemeName": "Clean Energy Promotion Scheme",
+    "description": "Promotes the use of clean energy sources in Maharashtra.",
+    "eligibility": {
+      "ageGroup": "All",
+      "gender": "Any",
+      "category": "Energy",
+      "location": "Maharashtra",
+      "occupation": "Any",
+      "incomeSlab": "Any"
+    },
+    "benefits": "Clean energy promotion",
+    "category": "Energy"
+  },
+  {
+    "schemeId": "8",
+    "schemeName": "Water Conservation Project",
+    "description": "Aims to conserve water resources in Andhra Pradesh.",
+    "eligibility": {
+      "ageGroup": "All",
+      "gender": "Any",
+      "category": "Environment",
+      "location": "Andhra Pradesh",
+      "occupation": "Any",
+      "incomeSlab": "Any"
+    },
+    "benefits": "Water conservation",
+    "category": "Environment"
+  },
+  {
+    "schemeId": "9",
+    "schemeName": "Digital Literacy Mission",
+    "description": "Provides digital literacy training for citizens in West Bengal.",
+    "eligibility": {
+      "ageGroup": "16-60",
+      "gender": "Any",
+      "category": "Technology",
+      "location": "West Bengal",
+      "occupation": "Any",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Digital literacy training",
+    "category": "Technology"
+  },
+  {
+    "schemeId": "10",
+    "schemeName": "Tourism Development Initiative",
+    "description": "Promotes tourism and creates employment opportunities in Goa.",
+    "eligibility": {
+      "ageGroup": "18-50",
+      "gender": "Any",
+      "category": "Tourism",
+      "location": "Goa",
+      "occupation": "Any",
+      "incomeSlab": "Any"
+    },
+    "benefits": "Tourism development",
+    "category": "Tourism"
+  },
+  {
+    "schemeId": "11",
+    "schemeName": "Fisheries Support Scheme",
+    "description": "Provides support for fishermen and promotes sustainable fishing practices in Kerala.",
+    "eligibility": {
+      "ageGroup": "25-55",
+      "gender": "Any",
+      "category": "Fisheries",
+      "location": "Kerala",
+      "occupation": "Fisherman",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Support for fishermen",
+    "category": "Fisheries"
+  },
+  {
+    "schemeId": "12",
+    "schemeName": "Handicrafts Promotion Program",
+    "description": "Promotes local handicrafts and provides financial assistance to artisans in Rajasthan.",
+    "eligibility": {
+      "ageGroup": "20-60",
+      "gender": "Any",
+      "category": "Handicrafts",
+      "location": "Rajasthan",
+      "occupation": "Artisan",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Financial assistance for artisans",
+    "category": "Handicrafts"
+  },
+  {
+    "schemeId": "13",
+    "schemeName": "Renewable Energy Subsidy",
+    "description": "Offers subsidies for installing solar panels and other renewable energy systems in Gujarat.",
+    "eligibility": {
+      "ageGroup": "All",
+      "gender": "Any",
+      "category": "Energy",
+      "location": "Gujarat",
+      "occupation": "Any",
+      "incomeSlab": "Any"
+    },
+    "benefits": "Subsidies for renewable energy",
+    "category": "Energy"
+  },
+  {
+    "schemeId": "14",
+    "schemeName": "Affordable Housing for Urban Poor",
+    "description": "Provides affordable housing options for low-income families in urban areas of Maharashtra.",
+    "eligibility": {
+      "ageGroup": "25-60",
+      "gender": "Any",
+      "category": "Housing",
+      "location": "Maharashtra",
+      "occupation": "Any",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Affordable housing",
+    "category": "Housing"
+  },
+  {
+    "schemeId": "15",
+    "schemeName": "Skill Enhancement for Unemployed Youth",
+    "description": "Provides skill enhancement training programs for unemployed youth in Haryana.",
+    "eligibility": {
+      "ageGroup": "18-30",
+      "gender": "Any",
+      "category": "Skill Development",
+      "location": "Haryana",
+      "occupation": "Unemployed",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Skill enhancement training",
+    "category": "Skill Development"
+  },
+  {
+    "schemeId": "16",
+    "schemeName": "Tourism Infrastructure Development",
+    "description": "Aims to develop tourism infrastructure in Himachal Pradesh.",
+    "eligibility": {
+      "ageGroup": "All",
+      "gender": "Any",
+      "category": "Tourism",
+      "location": "Himachal Pradesh",
+      "occupation": "Any",
+      "incomeSlab": "Any"
+    },
+    "benefits": "Tourism infrastructure development",
+    "category": "Tourism"
+  },
+  {
+    "schemeId": "17",
+    "schemeName": "Agriculture Technology Upgrade Scheme",
+    "description": "Supports the adoption of modern agricultural technologies in Andhra Pradesh.",
+    "eligibility": {
+      "ageGroup": "25-55",
+      "gender": "Any",
+      "category": "Agriculture",
+      "location": "Andhra Pradesh",
+      "occupation": "Farmer",
+      "incomeSlab": "Medium"
+    },
+    "benefits": "Adoption of agricultural technologies",
+    "category": "Agriculture"
+  },
+  {
+    "schemeId": "18",
+    "schemeName": "Financial Assistance for Women Entrepreneurs",
+    "description": "Provides financial support and guidance to women entrepreneurs in Tamil Nadu.",
+    "eligibility": {
+      "ageGroup": "25-45",
+      "gender": "Female",
+      "category": "Business",
+      "location": "Tamil Nadu",
+      "occupation": "Entrepreneur",
+      "incomeSlab": "Medium"
+    },
+    "benefits": "Financial assistance for women entrepreneurs",
+    "category": "Business"
+  },
+  {
+    "schemeId": "19",
+    "schemeName": "Healthcare for Senior Citizens",
+    "description": "Ensures access to affordable healthcare services for senior citizens in Kerala.",
+    "eligibility": {
+      "ageGroup": "60+",
+      "gender": "Any",
+      "category": "Healthcare",
+      "location": "Kerala",
+      "occupation": "Any",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Affordable healthcare for senior citizens",
+    "category": "Healthcare"
+  },
+  {
+    "schemeId": "20",
+    "schemeName": "Rural Sanitation Improvement Program",
+    "description": "Improves sanitation facilities in rural areas of Uttar Pradesh.",
+    "eligibility": {
+      "ageGroup": "All",
+      "gender": "Any",
+      "category": "Sanitation",
+      "location": "Uttar Pradesh",
+      "occupation": "Any",
+      "incomeSlab": "Any"
+    },
+    "benefits": "Improved sanitation facilities",
+    "category": "Sanitation"
+  },
+  {
+    "schemeId": "21",
+    "schemeName": "Agriculture Modernization Initiative",
+    "description": "Promotes modern agricultural practices in Haryana.",
+    "eligibility": {
+      "ageGroup": "25-55",
+      "gender": "Any",
+      "category": "Agriculture",
+      "location": "Haryana",
+      "occupation": "Farmer",
+      "incomeSlab": "Medium"
+    },
+    "benefits": "Modern agricultural practices",
+    "category": "Agriculture"
+  },
+  {
+    "schemeId": "22",
+    "schemeName": "Empowerment Program for Rural Women",
+    "description": "Provides skill development and entrepreneurship opportunities for women in rural Bihar.",
+    "eligibility": {
+      "ageGroup": "18-40",
+      "gender": "Female",
+      "category": "Empowerment",
+      "location": "Bihar",
+      "occupation": "Any",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Skill development for rural women",
+    "category": "Empowerment"
+  },
+  {
+    "schemeId": "23",
+    "schemeName": "Education for Underprivileged Children",
+    "description": "Ensures access to quality education for children from underprivileged backgrounds in Delhi.",
+    "eligibility": {
+      "ageGroup": "6-14",
+      "gender": "Any",
+      "category": "Education",
+      "location": "Delhi",
+      "occupation": "Student",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Quality education",
+    "category": "Education"
+  },
+  {
+    "schemeId": "24",
+    "schemeName": "Sustainable Tourism Development",
+    "description": "Promotes sustainable tourism practices and ecotourism in Uttarakhand.",
+    "eligibility": {
+      "ageGroup": "All",
+      "gender": "Any",
+      "category": "Tourism",
+      "location": "Uttarakhand",
+      "occupation": "Any",
+      "incomeSlab": "Any"
+    },
+    "benefits": "Sustainable tourism development",
+    "category": "Tourism"
+  },
+  {
+    "schemeId": "25",
+    "schemeName": "Affordable Healthcare for All",
+    "description": "Ensures access to affordable healthcare services for all citizens in West Bengal.",
+    "eligibility": {
+      "ageGroup": "All",
+      "gender": "Any",
+      "category": "Healthcare",
+      "location": "West Bengal",
+      "occupation": "Any",
+      "incomeSlab": "Any"
+    },
+    "benefits": "Affordable healthcare",
+    "category": "Healthcare"
+  },
+  {
+    "schemeId": "26",
+    "schemeName": "Skill Training for Unemployed Youth",
+    "description": "Provides skill development training programs for unemployed youth in Madhya Pradesh.",
+    "eligibility": {
+      "ageGroup": "18-30",
+      "gender": "Any",
+      "category": "Skill Development",
+      "location": "Madhya Pradesh",
+      "occupation": "Unemployed",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Skill training programs",
+    "category": "Skill Development"
+  },
+  {
+    "schemeId": "27",
+    "schemeName": "Clean Water and Sanitation Project",
+    "description": "Improves access to clean water and sanitation facilities in rural Assam.",
+    "eligibility": {
+      "ageGroup": "All",
+      "gender": "Any",
+      "category": "Sanitation",
+      "location": "Assam",
+      "occupation": "Any",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Clean water and sanitation",
+    "category": "Sanitation"
+  },
+  {
+    "schemeId": "28",
+    "schemeName": "Promotion of Organic Farming",
+    "description": "Promotes organic farming practices and provides support to farmers in Sikkim.",
+    "eligibility": {
+      "ageGroup": "25-55",
+      "gender": "Any",
+      "category": "Agriculture",
+      "location": "Sikkim",
+      "occupation": "Farmer",
+      "incomeSlab": "Medium"
+    },
+    "benefits": "Organic farming support",
+    "category": "Agriculture"
+  },
+  {
+    "schemeId": "29",
+    "schemeName": "Support for Senior Citizens",
+    "description": "Provides financial assistance and healthcare support to senior citizens in Odisha.",
+    "eligibility": {
+      "ageGroup": "60+",
+      "gender": "Any",
+      "category": "Healthcare",
+      "location": "Odisha",
+      "occupation": "Any",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Healthcare and financial support",
+    "category": "Healthcare"
+  },
+  {
+    "schemeId": "30",
+    "schemeName": "Rural Electrification Project",
+    "description": "Ensures access to electricity in rural areas of Jharkhand.",
+    "eligibility": {
+      "ageGroup": "All",
+      "gender": "Any",
+      "category": "Energy",
+      "location": "Jharkhand",
+      "occupation": "Any",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Access to electricity",
+    "category": "Energy"
+  },
+  {
+    "schemeId": "31",
+    "schemeName": "Agriculture Infrastructure Scheme",
+    "description": "Provides financial assistance to improve agricultural infrastructure in Tamil Nadu.",
+    "eligibility": {
+      "ageGroup": "25-55",
+      "gender": "Any",
+      "category": "Agriculture",
+      "location": "Tamil Nadu",
+      "occupation": "Farmer",
+      "incomeSlab": "Medium"
+    },
+    "benefits": "Improved agricultural infrastructure",
+    "category": "Agriculture"
+  },
+  {
+    "schemeId": "32",
+    "schemeName": "Women's Self-Help Group Program",
+    "description": "Supports the formation and growth of women's self-help groups in rural Maharashtra.",
+    "eligibility": {
+      "ageGroup": "18-45",
+      "gender": "Female",
+      "category": "Empowerment",
+      "location": "Maharashtra",
+      "occupation": "Any",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Formation of self-help groups",
+    "category": "Empowerment"
+  },
+  {
+    "schemeId": "33",
+    "schemeName": "Education Loan Scheme for Higher Studies",
+    "description": "Offers low-interest education loans for students pursuing higher studies in Karnataka.",
+    "eligibility": {
+      "ageGroup": "18-25",
+      "gender": "Any",
+      "category": "Education",
+      "location": "Karnataka",
+      "occupation": "Student",
+      "incomeSlab": "Medium"
+    },
+    "benefits": "Low-interest education loans",
+    "category": "Education"
+  },
+  {
+    "schemeId": "34",
+    "schemeName": "Ecotourism Promotion in Hill Regions",
+    "description": "Promotes ecotourism and creates employment opportunities in the hill regions of Himachal Pradesh.",
+    "eligibility": {
+      "ageGroup": "18-50",
+      "gender": "Any",
+      "category": "Tourism",
+      "location": "Himachal Pradesh",
+      "occupation": "Any",
+      "incomeSlab": "Any"
+    },
+    "benefits": "Ecotourism promotion",
+    "category": "Tourism"
+  },
+  {
+    "schemeId": "35",
+    "schemeName": "Accessible Healthcare Services",
+    "description": "Ensures access to affordable healthcare services for citizens in Punjab.",
+    "eligibility": {
+      "ageGroup": "All",
+      "gender": "Any",
+      "category": "Healthcare",
+      "location": "Punjab",
+      "occupation": "Any",
+      "incomeSlab": "Any"
+    },
+    "benefits": "Affordable healthcare services",
+    "category": "Healthcare"
+  },
+  {
+    "schemeId": "36",
+    "schemeName": "Skill Development for the Handicapped",
+    "description": "Provides skill development training programs for the differently-abled in Andhra Pradesh.",
+    "eligibility": {
+      "ageGroup": "18-45",
+      "gender": "Any",
+      "category": "Skill Development",
+      "location": "Andhra Pradesh",
+      "occupation": "Any",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Skill development programs",
+    "category": "Skill Development"
+  },
+  {
+    "schemeId": "37",
+    "schemeName": "Clean Energy Initiative",
+    "description": "Promotes the use of clean energy sources and reduces carbon emissions in Gujarat.",
+    "eligibility": {
+      "ageGroup": "All",
+      "gender": "Any",
+      "category": "Energy",
+      "location": "Gujarat",
+      "occupation": "Any",
+      "incomeSlab": "Any"
+    },
+    "benefits": "Promotion of clean energy",
+    "category": "Energy"
+  },
+  {
+    "schemeId": "38",
+    "schemeName": "Water Conservation Scheme",
+    "description": "Aims to conserve water resources and promote efficient irrigation practices in Rajasthan.",
+    "eligibility": {
+      "ageGroup": "All",
+      "gender": "Any",
+      "category": "Environment",
+      "location": "Rajasthan",
+      "occupation": "Any",
+      "incomeSlab": "Any"
+    },
+    "benefits": "Water conservation",
+    "category": "Environment"
+  },
+  {
+    "schemeId": "39",
+    "schemeName": "Digital Inclusion Program",
+    "description": "Provides digital literacy training and access to technology for citizens in West Bengal.",
+    "eligibility": {
+      "ageGroup": "16-60",
+      "gender": "Any",
+      "category": "Technology",
+      "location": "West Bengal",
+      "occupation": "Any",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Digital literacy and access to technology",
+    "category": "Technology"
+  },
+  {
+    "schemeId": "40",
+    "schemeName": "Tourism Promotion Scheme",
+    "description": "Promotes tourism and creates employment opportunities in Goa through infrastructure development.",
+    "eligibility": {
+      "ageGroup": "18-50",
+      "gender": "Any",
+      "category": "Tourism",
+      "location": "Goa",
+      "occupation": "Any",
+      "incomeSlab": "Any"
+    },
+    "benefits": "Tourism promotion and employment",
+    "category": "Tourism"
+  },
+  {
+    "schemeId": "41",
+    "schemeName": "Support for Fishermen Affected by Climate Change",
+    "description": "Provides financial assistance and training to fishermen in Kerala due to climate change.",
+    "eligibility": {
+      "ageGroup": "25-55",
+      "gender": "Any",
+      "category": "Fisheries",
+      "location": "Kerala",
+      "occupation": "Fisherman",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Financial aid and training",
+    "category": "Fisheries"
+  },
+  {
+    "schemeId": "42",
+    "schemeName": "Handicraft Development Program",
+    "description": "Promotes local handicrafts and provides skill development training to artisans in Jammu and Kashmir.",
+    "eligibility": {
+      "ageGroup": "20-50",
+      "gender": "Any",
+      "category": "Handicrafts",
+      "location": "Jammu and Kashmir",
+      "occupation": "Artisan",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Skill development and promotion",
+    "category": "Handicrafts"
+  },
+  {
+    "schemeId": "43",
+    "schemeName": "Green Energy Subsidy Scheme",
+    "description": "Offers subsidies for installing solar panels and wind turbines in Tamil Nadu.",
+    "eligibility": {
+      "ageGroup": "All",
+      "gender": "Any",
+      "category": "Energy",
+      "location": "Tamil Nadu",
+      "occupation": "Any",
+      "incomeSlab": "Any"
+    },
+    "benefits": "Subsidy for green energy",
+    "category": "Energy"
+  },
+  {
+    "schemeId": "44",
+    "schemeName": "Affordable Housing for Slum Dwellers",
+    "description": "Provides affordable housing options for people living in slums in Mumbai.",
+    "eligibility": {
+      "ageGroup": "25-60",
+      "gender": "Any",
+      "category": "Housing",
+      "location": "Maharashtra",
+      "occupation": "Any",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Affordable housing for slum dwellers",
+    "category": "Housing"
+  },
+  {
+    "schemeId": "45",
+    "schemeName": "Youth Employment and Skill Training",
+    "description": "Provides skill enhancement and employment opportunities for the youth in Bihar.",
+    "eligibility": {
+      "ageGroup": "18-30",
+      "gender": "Any",
+      "category": "Skill Development",
+      "location": "Bihar",
+      "occupation": "Unemployed",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Youth employment",
+    "category": "Skill Development"
+  },
+  {
+    "schemeId": "46",
+    "schemeName": "Sustainable Tourism Development",
+    "description": "Promotes sustainable tourism and ecotourism practices in Uttarakhand.",
+    "eligibility": {
+      "ageGroup": "18-60",
+      "gender": "Any",
+      "category": "Tourism",
+      "location": "Uttarakhand",
+      "occupation": "Any",
+      "incomeSlab": "Any"
+    },
+    "benefits": "Sustainable tourism",
+    "category": "Tourism"
+  },
+  {
+    "schemeId": "47",
+    "schemeName": "Financial Assistance for Marginal Farmers",
+    "description": "Provides financial aid for marginal farmers in Andhra Pradesh.",
+    "eligibility": {
+      "ageGroup": "25-55",
+      "gender": "Any",
+      "category": "Agriculture",
+      "location": "Andhra Pradesh",
+      "occupation": "Farmer",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Financial aid for farmers",
+    "category": "Agriculture"
+  },
+  {
+    "schemeId": "48",
+    "schemeName": "Women Entrepreneurship Training",
+    "description": "Provides entrepreneurial training and support for women in Kerala.",
+    "eligibility": {
+      "ageGroup": "25-45",
+      "gender": "Female",
+      "category": "Business",
+      "location": "Kerala",
+      "occupation": "Entrepreneur",
+      "incomeSlab": "Medium"
+    },
+    "benefits": "Entrepreneurship Training",
+    "category": "Business"
+  },
+  {
+    "schemeId": "49",
+    "schemeName": "Healthcare Assistance for the Elderly",
+    "description": "Ensures access to quality healthcare for senior citizens in Tamil Nadu.",
+    "eligibility": {
+      "ageGroup": "60+",
+      "gender": "Any",
+      "category": "Healthcare",
+      "location": "Tamil Nadu",
+      "occupation": "Any",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Healthcare Assistance",
+    "category": "Healthcare"
+  },
+  {
+    "schemeId": "50",
+    "schemeName": "Community Sanitation Improvement Initiative",
+    "description": "Improves sanitation facilities in rural communities in Jharkhand.",
+    "eligibility": {
+      "ageGroup": "All",
+      "gender": "Any",
+      "category": "Sanitation",
+      "location": "Jharkhand",
+      "occupation": "Any",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Community Sanitation Improvement",
+    "category": "Sanitation"
+  },
+  {
+    "schemeId": "51",
+    "schemeName": "Agriculture Technology and Innovation Scheme",
+    "description": "Promotes the adoption of modern agricultural technologies and innovation in Madhya Pradesh.",
+    "eligibility": {
+      "ageGroup": "25-55",
+      "gender": "Any",
+      "category": "Agriculture",
+      "location": "Madhya Pradesh",
+      "occupation": "Farmer",
+      "incomeSlab": "Medium"
+    },
+    "benefits": "Adoption of agricultural technologies",
+    "category": "Agriculture"
+  },
+  {
+    "schemeId": "52",
+    "schemeName": "Skill Enhancement for Disadvantaged Youth",
+    "description": "Provides skill enhancement training programs for youth from disadvantaged backgrounds in Uttar Pradesh.",
+    "eligibility": {
+      "ageGroup": "18-30",
+      "gender": "Any",
+      "category": "Skill Development",
+      "location": "Uttar Pradesh",
+      "occupation": "Unemployed",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Skill enhancement training",
+    "category": "Skill Development"
+  },
+  {
+    "schemeId": "53",
+    "schemeName": "Digital Literacy Initiative for Senior Citizens",
+    "description": "Provides digital literacy training for senior citizens in West Bengal.",
+    "eligibility": {
+      "ageGroup": "60+",
+      "gender": "Any",
+      "category": "Technology",
+      "location": "West Bengal",
+      "occupation": "Any",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Digital literacy for senior citizens",
+    "category": "Technology"
+  },
+  {
+    "schemeId": "54",
+    "schemeName": "Eco-Tourism Development in Forest Areas",
+    "description": "Promotes eco-tourism and creates sustainable employment opportunities in forest areas of Uttarakhand.",
+    "eligibility": {
+      "ageGroup": "18-50",
+      "gender": "Any",
+      "category": "Tourism",
+      "location": "Uttarakhand",
+      "occupation": "Any",
+      "incomeSlab": "Any"
+    },
+    "benefits": "Eco-tourism promotion",
+    "category": "Tourism"
+  },
+  {
+    "schemeId": "55",
+    "schemeName": "Financial Assistance for Small and Medium Enterprises",
+    "description": "Provides financial aid and resources for the growth of small and medium enterprises in Karnataka.",
+    "eligibility": {
+      "ageGroup": "25-55",
+      "gender": "Any",
+      "category": "Business",
+      "location": "Karnataka",
+      "occupation": "Entrepreneur",
+      "incomeSlab": "Medium"
+    },
+    "benefits": "Financial aid for SMEs",
+    "category": "Business"
+  },
+  {
+    "schemeId": "56",
+    "schemeName": "Clean Water and Sanitation for Rural Areas",
+    "description": "Improves access to clean drinking water and sanitation facilities in rural Assam.",
+    "eligibility": {
+      "ageGroup": "All",
+      "gender": "Any",
+      "category": "Sanitation",
+      "location": "Assam",
+      "occupation": "Any",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Clean water and sanitation",
+    "category": "Sanitation"
+  },
+  {
+    "schemeId": "57",
+    "schemeName": "Solar Power for Rural Homes",
+    "description": "Subsidizes the installation of solar power systems in rural homes in Rajasthan.",
+    "eligibility": {
+      "ageGroup": "All",
+      "gender": "Any",
+      "category": "Energy",
+      "location": "Rajasthan",
+      "occupation": "Any",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Solar power",
+    "category": "Energy"
+  },
+  {
+    "schemeId": "58",
+    "schemeName": "Skill Development and Training for Women",
+    "description": "Provides free skill development and vocational training for women in Haryana.",
+    "eligibility": {
+      "ageGroup": "18-45",
+      "gender": "Female",
+      "category": "Skill Development",
+      "location": "Haryana",
+      "occupation": "Unemployed",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Vocational training for women",
+    "category": "Skill Development"
+  },
+  {
+    "schemeId": "59",
+    "schemeName": "Affordable Healthcare for Urban Poor",
+    "description": "Ensures access to low-cost healthcare services for the urban poor in Tamil Nadu.",
+    "eligibility": {
+      "ageGroup": "All",
+      "gender": "Any",
+      "category": "Healthcare",
+      "location": "Tamil Nadu",
+      "occupation": "Any",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Affordable healthcare",
+    "category": "Healthcare"
+  },
+  {
+    "schemeId": "60",
+    "schemeName": "Support for Traditional Handicrafts",
+    "description": "Aids in the promotion and sale of traditional handicrafts in Jammu and Kashmir.",
+    "eligibility": {
+      "ageGroup": "25-55",
+      "gender": "Any",
+      "category": "Handicrafts",
+      "location": "Jammu and Kashmir",
+      "occupation": "Artisan",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Handicraft support",
+    "category": "Handicrafts"
+  },
+  {
+    "schemeId": "61",
+    "schemeName": "Assistance for Farmers Affected by Drought",
+    "description": "Provides financial aid to farmers affected by drought in Maharashtra.",
+    "eligibility": {
+      "ageGroup": "25-60",
+      "gender": "Any",
+      "category": "Agriculture",
+      "location": "Maharashtra",
+      "occupation": "Farmer",
+      "incomeSlab": "Low"
+    },
+    "benefits": "Financial assistance",
+    "category": "Agriculture"
+  },
+  {
+    "schemeId": "62",
+    "schemeName": "Education Scholarships for Girls",
+    "description": "Offers scholarships to girls pursuing secondary and higher education in Bihar.",
+    "eligibility": {
+      "ageGroup": "14-24",
+      "gender": "Female",
+      "category": "Education",
+      "location": "Bihar",
+      "occupation": "Student",
+      "incomeSlab": "Low"
+    }
+  }
+]

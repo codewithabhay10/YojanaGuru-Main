@@ -1,0 +1,225 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa; /* Light gray background */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #007bff; /* Primary blue */
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar .navbar-brand {
+  color: blue;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .nav-link {
+  color:blue;
+  font-size: 1rem;
+  margin-left: 15px;
+}
+
+.navbar .nav-link:hover {
+  color: #d4d4d4; /* Light gray on hover */
+}
+
+/* Home Page Styling */
+.content h1 {
+  font-size: 2.5rem;
+  color: #007bff; /* Primary blue */
+}
+
+.content p {
+  font-size: 1.2rem;
+  color: #6c757d; /* Muted text */
+}
+
+/* Schemes Page Styling */
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Scheme Card Styling */
+.card {
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation for hover effect */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #6c757d; /* Muted text for descriptions */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Primary blue button */
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Scheme Details Page Styling */
+.card-body ul {
+  list-style-type: none; /* Remove bullet points from lists */
+  padding-left: 0;
+}
+
+.card-body ul li {
+  padding-bottom: 10px;
+}
+
+.card-body ul li strong {
+  color: #007bff; /* Highlighted labels in details page */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar .nav-link {
+      margin-left: 5px;
+      font-size: 0.9rem; /* Smaller text for smaller screens */
+  }
+
+  h1, h2 {
+      font-size: 1.8rem; /* Adjust heading size for mobile screens */
+  }
+
+  .card-title {
+      font-size: 1rem; /* Adjust card title size for mobile screens */
+  }
+}
+
+/*home*/
+
+
+/* Category Icons Layout */
+.category-link {
+  text-decoration: none; /* Remove underline from links */
+  color: black; /* Black text */
+}
+
+.category-link:hover {
+  color: #007bff; /* Optional hover effect for links */
+}
+
+.category-icon {
+  font-size: 2rem; /* Reduced icon size */
+  margin-bottom: 5px; /* Less spacing below the icon */
+}
+
+.category-count {
+  font-size: 0.9rem; /* Smaller count text size */
+  margin-bottom: 3px; /* Less spacing below the count */
+}
+
+.category-name {
+  font-size: 1rem; /* Smaller category name size */
+  font-weight: bold;
+}
+
+/* Responsive Design for Categories */
+@media (max-width: 768px) {
+  .category-icon {
+      font-size: 1.5rem; /* Even smaller icons on mobile */
+  }
+
+  .category-name {
+      font-size: 0.9rem; /* Smaller category names on mobile */
+  }
+
+  .category-count {
+      font-size: 0.8rem; /* Smaller count text on mobile */
+  }
+}
+
+/*schemes*/
+/* Filter Form Styling */
+/* Filters Section */
+.col-md-3 h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.col-md-3 form .form-label {
+    font-weight: bold;
+}
+
+.col-md-3 form .btn-primary {
+    margin-top: 20px;
+}
+
+/* Schemes Section */
+.col-md-9 h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.row .card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.row .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Chatbot Icon Styling */
+.chatbot-icon {
+    position: fixed;
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px; /* Distance from the right */
+    width: 60px;
+    height: 60px;
+    background-color: #007bff; /* Primary blue color */
+    color: white;
+    border-radius: 50%; /* Make it circular */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem; /* Icon size */
+    cursor: pointer;
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+.chatbot-icon:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Sticky Filters */
+.filters-container {
+    position: sticky;
+    top: 20px; /* Distance from the top of the viewport */
+    z-index: 100; /* Ensure it stays above other content */
+    background-color: #f8f9fa; /* Match background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
