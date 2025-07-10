@@ -49,7 +49,7 @@ try {
 // Initialize LangChain Groq model
 const model = new ChatGroq({
   apiKey: process.env.GROQ_API_KEY,
-  model: "mixtral-8x7b-32768",
+  model: "llama3-70b-8192",
   temperature: 0.3, // Reduced for stable and precise responses
 });
 

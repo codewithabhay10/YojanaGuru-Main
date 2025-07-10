@@ -30,7 +30,7 @@ const Auth = ({ isSignUp }) => {
                     email: formData.email,
                     password: formData.password,
                 });
-                sessionStorage.setItem('userId', data.userId); // Save user ID for auto-login
+                sessionStorage.setItem('user', JSON.stringify(data)); // Save user data for auto-login
                 alert('Login successful!');
                 navigate('/schemes');
             }
